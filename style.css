@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EED9B9;
+    background-image: url('background photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* MAIN CARD */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    color: #D53E0F;
+    gap: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* HEADINGS */
+h3 {
+    color: #D53E0F;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+span {
+    color: #A82323;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #A82323;
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    background-color: #D53E0F;
+    color: white;
+}
+
+
+.about-me{
+    border: #D53E0F solid ;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: white;
+}
+.education{border: #D53E0F solid ;
+    padding: 10px;
+    border-radius: 2px; 
+margin-top: 15px;
+background-color: white;}
+
+.goals{border: #D53E0F solid ;
+    padding: 5px;
+    border-radius: 2px;
+margin-top: 15px;
+background-color: white;}
+
+.experience{border: #D53E0F solid ;
+    padding: 5px;
+    border-radius: 2px;
+margin-top:20px ;
+background-color: white;}
+.link{ 
+   width: 50px;
+    display: inline;
+    color: rgb(76, 4, 4);
+}
+button{ 
+    width: 500px;
+    height: 40px;
+    
+    border: #D53E0F solid ;
+    font-size: larger;
+
+}
+button:hover{
+
+    background-color:#D53E0F;
+    color: white;
+}
+button:active{
+background-color: #400202;
+
+}
+
+
+
