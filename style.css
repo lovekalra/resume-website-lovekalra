@@ -103,7 +103,7 @@ background-color: #400202;
 .about-me,
 .education,
 .experience,
-.goals {
+.goals{
     max-width: 700px;
     margin: 20px auto;
     padding: 20px;
@@ -112,7 +112,7 @@ background-color: #400202;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
-.youtube {
+.youtube{
     text-align: center;
     margin-top: 20px;
 }
